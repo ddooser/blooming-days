@@ -1204,3 +1204,23 @@ body>.circle {
         font-size: 22px;
     }
 }
+
+.plant4 {
+    padding-top: 335px;
+    padding-left: 11px
+}
+
+.plant5 {
+    padding-top: 11px;
+    padding-right: 11px;
+    text-align: end
+}
+
+.plant6 {
+    padding-top: 17px;
+    padding-left: 21px
+}
+
+.watching__card .price {
+    margin-top: 31px;
+}
