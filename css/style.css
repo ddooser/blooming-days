@@ -1178,12 +1178,6 @@ body>.circle {
         padding: 0 13%;
     }    
     
-    .goods__cards {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 767px) {
     .nav {
         margin-right: 0;
     }
@@ -1194,6 +1188,10 @@ body>.circle {
 
     .circle {
         display: none;
+    }
+    
+    .goods__cards {
+        flex-direction: column;
     }
 }
 
