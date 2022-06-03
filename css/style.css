@@ -28,7 +28,7 @@ p {
     margin: 0;
 }
 
-input::focus {
+input:focus {
     border: 0;
 }
 
