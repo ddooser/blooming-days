@@ -1171,13 +1171,19 @@ body>.circle {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
     .flex-container {
         flex-wrap: wrap;
         justify-content: center;
         padding: 0 13%;
+    }    
+    
+    .goods__cards {
+        flex-direction: column;
     }
+}
 
+@media (max-width: 767px) {
     .nav {
         margin-right: 0;
     }
