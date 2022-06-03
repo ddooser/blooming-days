@@ -28,6 +28,10 @@ p {
     margin: 0;
 }
 
+input::focus {
+    border: 0;
+}
+
 .logo,
 .logo h2 {
     position: relative
