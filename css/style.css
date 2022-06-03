@@ -17,7 +17,7 @@ body {
 }
 
 body.gray {
-    background: #FF7F7;
+    background: #F7F7F7;
 }
 
 header {
@@ -1157,6 +1157,10 @@ body>.circle {
 }
 
 @media (max-width: 1365px) {
+    .circle:not(body.gray > .circle) {
+        display: none;
+    }
+    
     .banner h1,
     .banner p {
         margin-left: 50px;
