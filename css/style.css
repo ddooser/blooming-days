@@ -17,7 +17,7 @@ body {
 }
 
 body.gray {
-    background: #F7F7F7;
+    background: #FF7F7;
 }
 
 header {
@@ -1157,10 +1157,6 @@ body>.circle {
 }
 
 @media (max-width: 1365px) {
-    .circle:not(body.gray > .circle) {
-        display: none;
-    }
-
     .banner h1,
     .banner p {
         margin-left: 50px;
@@ -1184,10 +1180,6 @@ body>.circle {
 
     .banner {
         margin-top: 60px;
-    }
-
-    .circle {
-        display: none;
     }
     
     .goods__cards {
