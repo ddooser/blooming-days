@@ -29,7 +29,7 @@ p {
 }
 
 input:focus {
-    border: 0;
+    outline: none;
 }
 
 .logo,
