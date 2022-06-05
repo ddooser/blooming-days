@@ -339,7 +339,7 @@ h4 {
 }
 
 .intro {
-    background-image: url("../Main plant.jpg");
+    background-image: url("../img/Main plant.jpg");
     background-position: left;
     background-size: cover;
     min-height: 507px;
@@ -492,25 +492,25 @@ h4 {
 }
 
 .home {
-    background-image: url(../4.jpg);
+    background-image: url(../img/4.jpg);
     position: relative
 }
 
 .decorative {
-    background-image: url(../3.jpg)
+    background-image: url(../img/3.jpg)
 }
 
 .garden {
-    background-image: url(../2.jpg);
+    background-image: url(../img/2.jpg);
     margin-bottom: 21px
 }
 
 .healthy {
-    background-image: url(../1.jpg)
+    background-image: url(../img/1.jpg)
 }
 
 .cactus {
-    background-image: url(../pexels-cup-of-couple-7303417\ 1.jpg)
+    background-image: url(../img/pexels-cup-of-couple-7303417\ 1.jpg)
 }
 
 .category__card img {
@@ -528,20 +528,20 @@ h4 {
 }
 
 .card__title,
-.kind,
-.price {
+.card__title,
+.card__price {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 24px
 }
 
-.kind,
-.price {
+.card__title,
+.card__price {
     font-weight: 500;
     font-size: 18
 }
 
-.price {
+.card__price {
     font-size: 18px
 }
 
@@ -561,27 +561,27 @@ h4 {
 }
 
 .plant1 {
-    background-image: url(../Aesence.jpg)
+    background-image: url(../img/Aesence.jpg)
 }
 
 .plant2 {
-    background-image: url("../Green leaf.jpg")
+    background-image: url("../img/Green leaf.jpg")
 }
 
 .plant3 {
-    background-image: url(../desmoines.jpg)
+    background-image: url(../img/desmoines.jpg)
 }
 
 .plant4 {
-    background-image: url("../Plant anon.jpg")
+    background-image: url("../img/Plant anon.jpg")
 }
 
 .plant5 {
-    background-image: url("../Plant anonimus.jpg")
+    background-image: url("../img/Plant anonimus.jpg")
 }
 
 .plant6 {
-    background-image: url(../anon.jpg)
+    background-image: url(../img/anon.jpg)
 }
 
 .head {
@@ -1141,7 +1141,7 @@ body>.circle {
     font-weight: 400;
 }
 
-.goods__cards .price {
+.goods__cards .card__price {
     color: #92B336;
     font-weight: 600;
 }
@@ -1197,7 +1197,7 @@ body>.circle {
     }
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {    
     .banner h1 span {
         font-size: 26px;
     }
@@ -1228,6 +1228,6 @@ body>.circle {
     padding-left: 21px
 }
 
-.watching__card .price {
+.watching__card .card__price {
     margin-top: 31px;
 }
